@@ -9,7 +9,8 @@ spring:
     url: jdbc:mysql://192.168.37.134:3306/tensquare_base?characterEncoding=utf-8
     username: root
     password: root
-
+  rabbitmq:
+   host: 192.168.37.134
   jpa:
     database: mysql
     show-sql: true
